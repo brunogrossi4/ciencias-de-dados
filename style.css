@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+
+:root{
+     --bg-color: rgb(46, 7, 63);
+     --primary-color: #7A1CAC;
+     --secondary-color: #AD49E1;
+     --tipo-fonte:"Jacquarda Bastarda", sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+    color:var(--primary-color);
+    font-family: var(--tipo-fonte);
+    height: 100vh;
+    margin:0;
+}
+header{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;/*espaço interno */
+}
+h1{
+    font-size: 2rem;/*rem medida do :root*/
+    color: var(--bg-color);
+    font-weight: 700; /*weight define o negrito*/
+}
+nav{
+    display: flex; /*área flexível navegável*/
+    justify-content: center; /*justificar conteúdo ao centro*/
+    font-weight: 400; /*negrito*/
+}
