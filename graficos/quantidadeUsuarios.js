@@ -18,7 +18,7 @@ async function quantidadeUsuariosPorRede() {
         }
     ]
 
-    const laytout = {
+    const layout = {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
@@ -54,3 +54,4 @@ async function quantidadeUsuariosPorRede() {
     grafico.className = 'grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     Plotly.newPlot(grafico, data, layout)
+}
